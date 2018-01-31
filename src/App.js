@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Social from './components/Social';
+import 'typeface-lato';
 import './App.css';
 
 class App extends Component {
@@ -25,7 +27,7 @@ class App extends Component {
             <p>
                 Andrés Artavia is a Web Developer based in Costa Rica who is IN LOVE with React
             </p>
-            {/* <Social /> */}
+            <Social />
         </div>
         <style jsx>{`
             body {
